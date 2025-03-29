@@ -35,7 +35,7 @@ The end-to-end workflow involves:
 The dataset includes customer orders with the following schema
 Each record represents a retail order in JSON format with nested line items:
 
-```json
+
 {
   "order_id": 1,
   "customer_id": 11599,

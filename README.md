@@ -55,7 +55,8 @@ Each record represents a retail order in JSON format with nested line items:
   ]
 }
 
-🔄 Pipeline Workflow
+##🔄 Pipeline Workflow
+
 Python Producer:
 
 Reads retail order records and sends them to Kafka (retail-data-new) with key-based partitioning (by customer_id).

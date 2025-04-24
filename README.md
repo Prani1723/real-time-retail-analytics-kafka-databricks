@@ -13,14 +13,6 @@ The end-to-end workflow involves:
 - Persisting the processed data into **Delta Lake tables stored on Azure ADLS Gen2**
 - Re-publishing filtered or aggregated insights back to Kafka using a **PySpark Kafka Producer**
 
----## 🔧 Tech Stack
-
-- **Apache Kafka (Confluent Cloud)** – Real-time message streaming
-- **Python** – Kafka Producer for ingestion
-- **PySpark on Databricks** – Stream and batch consumers, processing, and Kafka producer
-- **Delta Lake** – ACID-compliant storage with schema enforcement
-- **Azure ADLS Gen2** – Scalable cloud storage
-
 
 ## 🔧 Tech Stack
 
